@@ -1,0 +1,104 @@
+Host suap
+    User                   ubuntu
+    HostName               10.5.0.175
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+Host saap
+    User                   ubuntu
+    HostName               10.5.0.224
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+Host prod-ws
+    User                   ubuntu
+    HostName               10.5.0.24
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+    
+Host cm
+    User                   ubuntu
+    HostName               10.5.1.70
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+    
+    
+    
+Host cmws
+    User                   ubuntu
+    HostName               10.5.0.240
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+Host sonar
+    User                   ubuntu
+    HostName               10.5.1.8
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+Host freemium
+    User                   ubuntu
+    HostName               10.5.1.161
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+Host freemium-prod
+    User                   ubuntu
+    HostName               10.5.1.107
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cs-dev-web-private.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+Host ins-shdulr
+    User                   ubuntu
+    HostName               10.5.0.168
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/test-key.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+
+

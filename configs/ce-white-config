@@ -1,0 +1,22 @@
+Host white-runner
+    User                   ubuntu
+    HostName               10.7.0.17
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/cei-trn-app-secure.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+Host ces-dev-web
+    User                   ubuntu
+    HostName               10.7.1.158
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/ces-dev-web.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+

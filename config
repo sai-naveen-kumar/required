@@ -1,0 +1,12 @@
+Include configs/*
+    
+Host mail-enkode
+    User                   ubuntu
+    HostName               50.16.48.163
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/mail-enkode.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes

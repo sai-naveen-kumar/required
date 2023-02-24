@@ -1,0 +1,36 @@
+Host cm-beta
+    User                   ubuntu
+    HostName               10.2.0.153
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/ces-co-beta.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+Host frm-beta
+    User                   ubuntu
+    HostName               10.2.0.98
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/ces-co-beta.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+Host pub-frm-beta
+    User                   ubuntu
+    HostName               10.2.10.100
+    Port                   22
+    IdentitiesOnly         yes
+    IdentityFile           ~/.ssh/keys/ces-co-beta.pem
+    UserKnownHostsFile     /dev/null
+    StrictHostKeyChecking  no
+    PasswordAuthentication no
+    TCPKeepAlive           yes
+    
+
+
+
